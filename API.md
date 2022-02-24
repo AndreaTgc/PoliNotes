@@ -53,30 +53,33 @@ Concatenazione &rarr; operazione che concatena due stringhe
 
 Dato un alfabeto arbitrario A &rarr; **(A* , .)** è il *monoide libero* costruito su A, l'elemento neutro di questo monoide è ε.  
 
-**Il Linguaggio**
+**Il Linguaggio:**
 
 Un linguaggio **L** su un alfabeto **A** è un sottoinsieme di **A*** ovvero un insieme di parole di A.
 *esempi:*  
-* *l'italiano è un linguaggio su A = {a,b,c,d,e,...}
-* *I files pdf sono un linguaggio su A = {0,1}
-* *Il DNA è un linguaggio codificabile su A = {C,G,A,T}
-* *I numeri pari in base 4 sono un linguaggio su A = {0,1,2,3}
+* *l'italiano è un linguaggio su A = {a,b,c,d,e,...}*
+* *I files pdf sono un linguaggio su A = {0,1}*
+* *Il DNA è un linguaggio codificabile su A = {C,G,A,T}*
+* *I numeri pari in base 4 sono un linguaggio su A = {0,1,2,3}*
 
 **NOTA BENE:** anche se **|A| < ∞**, non necessariamente si avrà che **|L| < ∞** (vedi ultimo esempio).
 
-**Operazioni tra linguaggi**
+**Operazioni tra linguaggi:**
 
 Un dato linguaggio L è a tutti gli effetti un insieme, di conseguenza valgono l'Unione ∪, l'intersezione ∩ e la differenza \ .  
 Il complemento ¬L è definito come A*\L  
 
-**Concatenazione tra linguaggi** &rarr; Dati L<sub>1</sub> su A<sub>1</sub> e L<sub>2</sub> su A<sub>2</sub>, L<sub>1</sub>.L<sub>2</sub> definito su A<sub>1</sub> ∪ A<sub>2</sub> è:  
- L<sub>1</sub>.L<sub>2</sub> = {x.y | x ∈ L<sub>1</sub>, y ∈ L<sub>2</sub>}  
+**Concatenazione tra linguaggi:**  
+
+Dati L<sub>1</sub> su A<sub>1</sub> e L<sub>2</sub> su A<sub>2</sub> &rarr; L<sub>1</sub>.L<sub>2</sub> definito su A<sub>1</sub> ∪ A<sub>2</sub> è:  L<sub>1</sub>.L<sub>2</sub> = {x.y | x ∈ L<sub>1</sub>, y ∈ L<sub>2</sub>}  
+
  *esempio:* &rarr; Dati L<sub>1</sub> = {0,1}*, L<sub>2</sub> = {a,b}* abbiamo che:  
-                   L<sub>1</sub>.L<sub>2</sub> = {ε,0,1,0a,011b,0aba,...} **NOTA BENE:** la stringa a1 **non fa parte** di  L<sub>1</sub>.L<sub>2</sub>.
+ * L<sub>1</sub>.L<sub>2</sub> = {ε,0,1,0a,011b,0aba,...}   
+ **NOTA BENE:** la stringa a1 **non fa parte** di  L<sub>1</sub>.L<sub>2</sub>.
                    
 **Alcune proprietà:**
 
-* L<sup>n</sup>, n ∈ N, è la concatenazione di L con sè stesso *n* volte.
+* L<sup>n</sup>, n ∈ N, è la concatenazione di L con sè stesso *n* volte.  
 **NOTA BENE:** Il lunguaggio vuoto L<sub>1</sub> = ∅ ≠ {ε} = L<sub>2</sub>
                    
  
