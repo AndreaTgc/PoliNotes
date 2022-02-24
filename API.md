@@ -34,7 +34,7 @@ L'alfabeto è un insieme finito di simboli di qualsiasi tipo.
 esempi:
 * *{a,b,c,d,....,z}*
 * *{0,1}*
-* *Codice Morse, Baudot, ASCII ecc.*
+* *Codice Morse, Baudot, ASCII ecc.*  
 
 **Stringa di un alfabeto arbitrario A:**
 
