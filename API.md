@@ -32,11 +32,11 @@ Il linguaggio è da sempre uno strumento utilizzato per esprimere modelli.
 Un linguaggio è, per definizione, sempre definito su un *alfabeto*.
 L'alfabeto è un insieme finito di simboli di qualsiasi tipo.
 esempi:
-* {a,b,c,d,....,z}
-* {0,1}
-* Codice Morse, Baudot, ASCII ecc.
+* *{a,b,c,d,....,z}*
+* *{0,1}*
+* *Codice Morse, Baudot, ASCII ecc.*
 
-**Stringa di un alfabeto arbitrario A**
+**Stringa di un alfabeto arbitrario A:**
 
 Una stringa è una sequenza ordinata e finita di elementi dell'alfabeto.
 La lunghezza di una stringa è, come ci si può immaginare, il numero di caratteri che la compongono &rarr; |a| = 1, |stringa| = 7.  
@@ -44,6 +44,13 @@ Inoltre, a prescindere dall'alfabeto utilizzato, è presente anche la stringa nu
 A* è invece l'insieme di tutte le stringhe (incluse quella nulla) su A.
  * *Esempio:* A = {0,1}, A* = {ε,0,1,00,01,10,11,100...}
 
-**Operazioni sulle stringhe**
+**Operazioni sulle stringhe:**  
+
+Concatenazione &rarr; operazione che concatena due stringhe
+  *Esempio:* x = Bana, y = na &rarr; x.y = Banana
+
+**Monoide libero:**
+
+Dato un alfabeto arbitrario A &rarr; **(A* , .)** è il *monoide libero* costruito su A, l'elemento neutro di questo monoide è ε.
 
 
