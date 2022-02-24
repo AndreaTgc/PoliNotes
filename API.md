@@ -61,7 +61,7 @@ Un linguaggio **L** su un alfabeto **A** è un sottoinsieme di **A*** ovvero un 
 * *I files pdf sono un linguaggio su A = {0,1}*
 * *Il DNA è un linguaggio codificabile su A = {C,G,A,T}*
 * *I numeri pari in base 4 sono un linguaggio su A = {0,1,2,3}*
-* **NOTA BENE:** anche se |A| < ∞, non necessariamente si avrà che |L| < ∞ (vedi ultimo esempio).
+**NOTA BENE:** anche se |A| < ∞, non necessariamente si avrà che |L| < ∞ (vedi ultimo esempio).
 
 ## Operazioni tra linguaggi
 
