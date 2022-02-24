@@ -74,6 +74,11 @@ Il complemento ¬L è definito come A*\L
  *esempio:* &rarr; Dati L<sub>1</sub> = {0,1}*, L<sub>2</sub> = {a,b}* abbiamo che:  
                    L<sub>1</sub>.L<sub>2</sub> = {ε,0,1,0a,011b,0aba,...} **NOTA BENE:** la stringa a1 **non fa parte** di  L<sub>1</sub>.L<sub>2</sub>.
                    
+**Alcune proprietà:**
+
+* L<sup>n</sup>, n ∈ N, è la concatenazione di L con sè stesso *n* volte.
+**NOTA BENE:** Il lunguaggio vuoto L<sub>1</sub> = ∅ ≠ {ε} = L<sub>2</sub>
+                   
  
                    
  
