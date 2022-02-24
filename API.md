@@ -64,7 +64,7 @@ Un linguaggio **L** su un alfabeto **A** è un sottoinsieme di **A*** ovvero un 
 
 **NOTA BENE:** anche se **|A| < ∞**, non necessariamente si avrà che **|L| < ∞** (vedi ultimo esempio).
 
-**Operazioni tra linguaggi:**
+## Operazioni tra linguaggi
 
 Un dato linguaggio L è a tutti gli effetti un insieme, di conseguenza valgono l'Unione ∪, l'intersezione ∩ e la differenza \ .  
 Il complemento ¬L è definito come A*\L  
@@ -80,7 +80,13 @@ Dati L<sub>1</sub> su A<sub>1</sub> e L<sub>2</sub> su A<sub>2</sub> &rarr; L<su
 **Alcune proprietà:**
 
 * L<sup>n</sup>, n ∈ N, è la concatenazione di L con sè stesso *n* volte.  
-**NOTA BENE:** Il lunguaggio vuoto L<sub>1</sub> = ∅ ≠ {ε} = L<sub>2</sub>
+**NOTA BENE:** Il lunguaggio vuoto L<sub>1</sub> = ∅ ≠ {ε} = L<sub>2</sub>  
+
+**Operatore +**
+
+L'operatore **+** indica le stringhe fatte concatenando uno o più elementi dell'insieme.
+* A = {0,1}, A<sup>+</sup> = {0,1,00,01,...}
+* Per estensione &rarr; L<sup>*</sup> = U<sup>∞</sup><sub>n=0</sub>  L<sup>n</sup>, L<sup>+</sup> = U<sup>∞</sup><sub>n=1</sub>  L<sup>n</sup>,
                    
  
                    
