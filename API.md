@@ -88,8 +88,25 @@ L'operatore **+** indica le stringhe fatte concatenando uno o più elementi dell
 * A = {0,1}, A<sup>+</sup> = {0,1,00,01,...}
 * *Per estensione* &rarr; L<sup>*</sup> = U<sup>∞</sup><sub>n=0</sub>  L<sup>n</sup>  ,   L<sup>+</sup> = U<sup>∞</sup><sub>n=1</sub>  L<sup>n</sup>,
                    
+ **Il linguaggio come formalismo espressivo:**  
  
-                   
+Un linguaggio può essere usato per esprimere un problema:
+* trovare la miglior mossa successiva in una partita a scacchi  
+* trovare tre numeri interi positivi tali per cui x<sup>3</sup> + y<sup>3</sup> = z<sup>3</sup>  
+
+L'insieme delle soluzioni di un problema è un linguaggio  
+
+* risolvere un problema &rarr; calcolare (riconoscere) un x ∈ L
+* *esempio:*  "Questo programma C è sintatticamente corretto?" &rarr; Data x dire se x ∈ L<sub>linguaggio c</sub>  
+
+### Passare da un linguaggio all'altro
+
+**traduzioni:**  
+
+Tradurre &rarr; mettere in corrispondenza parole di due linguaggi.  
+Formalmente, una traduzione è una mappa τ (·): L<sub>1</sub> &rarr; L<sub>2</sub>  
+
+* L<sub>1</sub> = {a,b}* , L<sub>2</sub> = {c,d}* , τ mappa a &rarr; c , b &rarr; d ,  τ(ba) = dc
  
 
 
