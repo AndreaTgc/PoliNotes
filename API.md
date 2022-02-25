@@ -79,14 +79,14 @@ L<sub>1</sub>.L<sub>2</sub> = {x.y | x ∈ L<sub>1</sub>, y ∈ L<sub>2</sub>}
                    
 **Alcune proprietà:**
 
-* L<sup>n</sup>, n ∈ N, è la concatenazione di L con sè stesso *n* volte.  
+* L<sup>n</sup>, n ∈ N, è la concatenazione di L con sè stesso *n* volte.   
 **NOTA BENE:** Il lunguaggio vuoto L<sub>1</sub> = ∅ ≠ {ε} = L<sub>2</sub>  
 
 **Operatore +**
 
 L'operatore **+** indica le stringhe fatte concatenando uno o più elementi dell'insieme.
 * A = {0,1}, A<sup>+</sup> = {0,1,00,01,...}
-* Per estensione &rarr; L<sup>*</sup> = U<sup>∞</sup><sub>n=0</sub>  L<sup>n</sup>, L<sup>+</sup> = U<sup>∞</sup><sub>n=1</sub>  L<sup>n</sup>,
+* *Per estensione* &rarr; L<sup>*</sup> = U<sup>∞</sup><sub>n=0</sub>  L<sup>n</sup>  ,   L<sup>+</sup> = U<sup>∞</sup><sub>n=1</sub>  L<sup>n</sup>,
                    
  
                    
