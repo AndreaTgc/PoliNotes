@@ -1,3 +1,5 @@
+## Notes of Bioinformatics, academic year 2021/2022
+
 # Biological background 
 
 ## A quick introduction to Molecular Biology and Bioinformatics 
