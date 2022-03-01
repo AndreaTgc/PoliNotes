@@ -131,6 +131,19 @@ Formalmente, una traduzione è una mappa τ (·): L<sub>1</sub> &rarr; L<sub>2</
 
 **Riconoscere un linguaggio con un FSA**  
 
+Possiamo utilizzare un FSA per riconoscere le parole di un linguaggio, definiamo l'insieme di stati finali **F ⊆ Q**.  
+Se l'automa, leggendo una stringa, partendo da q<sub>0</sub> termina in uno stato finale allora la stringa appartiene al linguaggio.  
+
+**Formalizzazione dell'accettazione**
+
+**Sequenza di mosse** &rarr; Formalizziamo una sequenza di mosse definendo **δ<sup>*</sup> : Q × I<sup>*</sup> &rarr; Q** estensione di δ, induttivamente:  
+* Base: ∀q ∈ Q, δ<sup>*</sup>(q,ε) = q  
+* Passo: δ<sup>*</sup>(q, y.i) = δ(δ<sup>*</sup>(q, y), i)  
+
+
+**Accettazione di un linguaggio** &rarr; Possiamo formalizzare l'accettazione di un linguaggio L su I da parte di un FSA (Q, I, δ, q<sub>0</sub>, F) in questo modo:  x ∈ L ⇔ δ<sup>*</sup>(q<sub>0</sub>, x) ∈ F
+
+
 
 
 
