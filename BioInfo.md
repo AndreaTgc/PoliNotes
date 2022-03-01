@@ -9,5 +9,7 @@ Keep in mind that computer science and information science are two different thi
 Information science is a field primarily concerned with: Analysis, classification, manipulation, storage, retrieval, transmission and obviously information.  
 It is used for *in silico* analysis of biological data obtained from *in vivo* or *in vitro* sources.  
 
+**A quick look at various types of Cells** 
 
+![ImageOfCells](/assets/img/1stLectureCells.png "Various type of cells")
 
