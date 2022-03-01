@@ -165,8 +165,8 @@ Passo η<sup>*</sup>(q, y.i) = η<sup>*</sup>(q, y).η(δ<sup>*</sup>(q, y), i)
 ## Formalizzazione del comportamento ciclico   
 
 **Pumping lemma**  
-
-* Premessa &rarr;  ∃x ∈ L, L riconosciuto da FSA, |x| > |Q|  
+ 
+**Premessa** &rarr;  ∃x ∈ L, L riconosciuto da FSA, |x| > |Q|  
 * Conseguenza &rarr; esistono q ∈ Q, w ∈ I<sup>+</sup> tali che x = ywz con y, z  ∈ I<sup>*</sup> e δ<sup>*</sup>(q,w) = q  
 ovvero esiste una sottostringa di x che viene riconosciuta dall’automa effettuando un’iterazione su un ciclo di stati. 
 * Dal pumping lemma segue che yw<sup>n</sup>z ∈ L,  ∀n ≥ 0.
@@ -189,6 +189,17 @@ sia x ∈ L, x = a<sup>m</sup>b<sup>m</sup>, m/2 > |Q|, applicando il pumping le
 * w = a<sup>k</sup>, pompando w ottengo ∀r ∈ N, a<sup>m-k</sup>a<sup>r·k</sup>b<sup>m</sup> ∈ L, **non va** 
 * w = b<sup>k</sup>, pompando w ottengo ∀r ∈ N, a<sup>m</sup>a<sup>r·k</sup>b<sup>m-k</sup> ∈ L, **non va** 
 * w = a<sup>k</sup>b<sup>h</sup>, pompando w ottengo ∀r ∈ N, a<sup>m-k</sup>(a<sup>k</sup>b<sup>h</sup>)<sup>r</sup>b<sup>m-h</sup> ∈ L, **non va** 
+
+**Verso modelli più potenti**  
+
+* Intuitivamente: per “contare” un n arbitrariamente grande, occorre una quantità di memoria altrettanto grande. 
+* Riconoscere strutture a parentesi (HTML,XML,linguaggi di programmazione) non è fattibile per un FSA. 
+* Anche modellare un calcolatore fisico (che è un FSA) come tale può essere scomodo/intrattabile. 
+* è necessario estendere gli FSA per riuscire a renderli più efficaci. 
+
+## Il concetto di chiusura 
+
+**Chiusura algebrica** 
 
 
 
