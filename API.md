@@ -106,8 +106,36 @@ L'insieme delle soluzioni di un problema è un linguaggio
 Tradurre &rarr; mettere in corrispondenza parole di due linguaggi.  
 Formalmente, una traduzione è una mappa τ (·): L<sub>1</sub> &rarr; L<sub>2</sub>  
 
-* L<sub>1</sub> = {a,b}* , L<sub>2</sub> = {c,d}* , τ mappa a &rarr; c , b &rarr; d ,  τ(ba) = dc
- 
+* L<sub>1</sub> = {a,b}* , L<sub>2</sub> = {c,d}* , τ mappa a &rarr; c , b &rarr; d ,  τ(ba) = dc. 
+
+
+# Automi a stati finiti 
+
+## un semplice modello di calcolo  
+
+* I modelli operazionali di calcolo vengono definiti come *macchine astratte*.  
+* Esse modellano il calcolo come una serie di passaggi discreti tra uno stato precedente e uno successivo. 
+* Le macchine più semplici sono gli **automi a stati finiti** (anche dette *finite state automata FSA*), esse hanno una memoria di calcolo formata da un insieme finito di stati
+* *esempi:* {marce di un'auto}, {in partenza, in viaggio, arrivo}, {1,2,...,k}.  
+
+## Formalizzazione 
+
+**Costituenti di un FSA**  
+
+* **Q** &rarr; l'insieme finito dei suoi stati.  
+* **I** &rarr; l'insieme finito (alfatebo) dei simboli in ingresso.
+* **δ: Q × I &rarr; Q** &rarr; la funzione di transizione: mappa una coppia (stato corrente e destinazione).  
+* Serve definire un inizio della computazione: chiamiamo q<sub>0</sub> ∈ **Q** lo stato iniziale del nostro automa. Esso viene indicato graficamente con una freccia entrante non generata da alcuno stato.  
+
+## FSA riconoscitore  
+
+**Riconoscere un linguaggio con un FSA**  
+
+
+
+
+
+
 
 
 
