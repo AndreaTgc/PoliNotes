@@ -1,4 +1,4 @@
-## Notes of Bioinformatics, academic year 2021/2022
+## Bioinformatics Notes, academic year 2021/2022
 
 # Biological background 
 
