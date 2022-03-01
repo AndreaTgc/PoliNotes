@@ -11,5 +11,5 @@ It is used for *in silico* analysis of biological data obtained from *in vivo* o
 
 **A quick look at various types of Cells** 
 
-![ImageOfCells](/assets/img/1stLectureCells.png "Various type of cells")
+![ImageOfCells](1stLectureCells.png "Various type of cells")
 
