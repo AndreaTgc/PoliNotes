@@ -11,13 +11,23 @@ It is used for *in silico* analysis of biological data obtained from *in vivo* o
 
 **A quick look at various types of Cells** 
 
-![ImageOfCells](1stLectureCells.png "Various type of cells")  
+![ImageOfCells](BioImages/1stLectureCells.png "Various type of cells")  
 
 ### Molecules  
 
 **Small Molecules** &rarr; Sources of energy, Building blocks for macromolecules or signaling molecules used for signal transmission. 
 
-![AdrenalineMolecule](Adrenaline.png "image of adrenaline")  
+![AdrenalineMolecule](BioImages/Adrenaline.png "image of adrenaline")  
 
 **Proteins** &rarr; Building blocks of the cell (and also of the organelles), functional molecules for biological processes. 
-Usually they collaborate in "protein complexes" or have otherwise physical "protein-protein interactions". 
+Usually they collaborate in "protein complexes" or have otherwise physical "protein-protein interactions".  
+
+![AdrenalineMolecule](BioImages/1stLectureProtein.png "image of adrenaline")  
+
+**An example of protein complex**  
+
+![AdrenalineMolecule](BioImages/1stLectureProteinComplex.png "image of adrenaline")  
+
+### DNA and RNA  
+
+
