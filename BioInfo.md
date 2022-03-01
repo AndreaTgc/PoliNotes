@@ -11,5 +11,9 @@ It is used for *in silico* analysis of biological data obtained from *in vivo* o
 
 **A quick look at various types of Cells** 
 
-![ImageOfCells](1stLectureCells.png "Various type of cells")
+![ImageOfCells](1stLectureCells.png "Various type of cells")  
+
+### Molecules  
+
+**Small Molecules** &rarr; Sources of energy, Building blocks for macromolecules or signaling molecules used for signal transmission. 
 
