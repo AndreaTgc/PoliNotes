@@ -144,7 +144,21 @@ Se l'automa, leggendo una stringa, partendo da q<sub>0</sub> termina in uno stat
 **Accettazione di un linguaggio** &rarr; Possiamo formalizzare l'accettazione di un linguaggio L su I da parte di un FSA (Q, I, δ, q<sub>0</sub>, F) in questo modo:  x ∈ L ⇔ δ<sup>*</sup>(q<sub>0</sub>, x) ∈ F
 
 
+## Formalizzazione di un traduttore  
 
+**Elementi del traduttore**  
+
+* Un FSA traduttore: 7-upla *A*: (Q, I, δ, q<sub>0</sub>, F, O, η)  
+* ⟨Q, I, δ, q<sub>0</sub>, F⟩ come nell'FSA riconoscitore. 
+* **O**: Alfabeto di uscita. 
+* η : Q × I → O<sup>*</sup> Funzione di traduzione. 
+
+
+**Funzione di traduzione per stringhe η<sup>*</sup>  
+
+* **η<sup>*</sup> : Q × I<sup>*</sup> → O<sup>*</sup>** Definita in maniera analoga 
+Base η<sup>*</sup>(q,ε) = ε
+Passo η<sup>*</sup>(q, y.i) = η<sup>*</sup>(q, y).η(δ<sup>*</sup>(q, y), i)
 
 
 
