@@ -162,6 +162,17 @@ Passo η<sup>*</sup>(q, y.i) = η<sup>*</sup>(q, y).η(δ<sup>*</sup>(q, y), i)
 
 * L'intero calcolo di una traduzione è quindi formalizzato come:  τ(x) = η<sup>*</sup>(q<sub>0</sub>,x) ⇔ δ<sup>*</sup>(q<sub>0</sub>,x) ∈ **F**  
 
+## Formalizzazione del comportamento ciclico   
+
+**Pumping lemma**  
+
+* Premessa &rarr;  ∃x ∈ L, L riconosciuto da FSA, |x| > |Q|  
+* Conseguenza &rarr; esistono q ∈ Q, w ∈ I<sup>+</sup> tali che x = ywz con y, z  ∈ I<sup>*</sup> e δ<sup>*</sup>(q,w) = q  
+ovvero esiste una sottostringa di x che viene riconosciuta dall’automa effettuando un’iterazione su un ciclo di stati. 
+* Dal pumping lemma segue che yw<sup>n</sup>z ∈ L,  ∀n ≥ 0.
+
+
+
 
 
 
