@@ -156,9 +156,10 @@ Se l'automa, leggendo una stringa, partendo da q<sub>0</sub> termina in uno stat
 
 **Funzione di traduzione per stringhe η<sup>*</sup>  
 
-* **η<sup>*</sup> : Q × I<sup>*</sup> → O<sup>*</sup>** Definita in maniera analoga 
-Base η<sup>*</sup>(q,ε) = ε
-Passo η<sup>*</sup>(q, y.i) = η<sup>*</sup>(q, y).η(δ<sup>*</sup>(q, y), i)
+* **η<sup>*</sup> : Q × I<sup>*</sup> → O<sup>*</sup>** Definita in maniera analoga  
+Base η<sup>*</sup>(q,ε) = ε  
+Passo η<sup>*</sup>(q, y.i) = η<sup>*</sup>(q, y).η(δ<sup>*</sup>(q, y), i)  
+
 
 
 
