@@ -23,12 +23,18 @@ It is used for *in silico* analysis of biological data obtained from *in vivo* o
 **Proteins** &rarr; Building blocks of the cell (and also of the organelles), functional molecules for biological processes. 
 Usually they collaborate in "protein complexes" or have otherwise physical "protein-protein interactions".  
 
-![AdrenalineMolecule](BioImages/1stLectureProtein.png "image of adrenaline")  
+![ImageOfProtein](BioImages/1stLectureProtein.png "image of a protein")  
 
 **An example of protein complex**  
 
-![AdrenalineMolecule](BioImages/1stLectureProteinComplex.png "image of adrenaline")  
+![ProteinComplexImage](BioImages/1stLectureProteinComplex.png "image of a protein complex")  
 
 ### DNA and RNA  
+
+**DNA** DNA (deoxyribonucleic acid) takes care of storage and reproduction of information.  
+It contains genes, regulatory elements (e.g. "transcription factor binding elements") and "junk DNA" (regions without known function)  
+It has a double stranded structure (double helix) 
+
+![ImageOfDNA](BioImages/1stLectureDNA.png "image of the DNA") 
 
 
