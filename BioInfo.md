@@ -1,7 +1,6 @@
 ## Bioinformatics Notes, academic year 2021/2022
 
 # Biological background 
-
 ## A quick introduction to Molecular Biology and Bioinformatics 
 
 First of all, what is *Bioinformatics*?  as you can imagine, it's what you get when you combine Biology and informatics!  
