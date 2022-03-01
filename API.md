@@ -171,6 +171,32 @@ Passo η<sup>*</sup>(q, y.i) = η<sup>*</sup>(q, y).η(δ<sup>*</sup>(q, y), i)
 ovvero esiste una sottostringa di x che viene riconosciuta dall’automa effettuando un’iterazione su un ciclo di stati. 
 * Dal pumping lemma segue che yw<sup>n</sup>z ∈ L,  ∀n ≥ 0.
 
+**Proprietà dei linguaggi riconosciuti da FSA**  
+
+* Posso dire se L = ∅  
+∃x ∈ L ⇒ ∃y ∈ L, |y| < |Q| &rarr; se una parola ha “cicli in riconoscimento” li elimino &rarr; posso dare in pasto le y all’FSA (sono finite) e verificare se almeno una ∈ L
+* Posso dire se L = ∞  
+∃x ∈ L, |Q| ≤ |x| < 2|Q| implica che x abbia un ciclo in riconoscimento. 
+
+## Limitazioni degli FSA  
+
+**Riconoscere le strutture a parentesi**
+
+Domanda: L = {a<sup>n</sup>b<sup>n</sup> | n ≥ 0} è riconosciuto da un FSA?  
+intuizione: **NO**, dimostriamolo per assurdo. 
+
+sia x ∈ L, x = a<sup>m</sup>b<sup>m</sup>, m/2 > |Q|, applicando il pumping lemma abbiamo che x = ywz, con w che deve avere una di queste forme: 
+* w = a<sup>k</sup>, pompando w ottengo ∀r ∈ N, a<sup>m-k</sup>a<sup>r·k</sup>b<sup>m</sup> ∈ L, **non va** 
+* w = b<sup>k</sup>, pompando w ottengo ∀r ∈ N, a<sup>m</sup>a<sup>r·k</sup>b<sup>m-k</sup> ∈ L, **non va** 
+* w = a<sup>k</sup>b<sup>h</sup>, pompando w ottengo ∀r ∈ N, a<sup>m-k</sup>(a<sup>k</sup>b<sup>h</sup>)<sup>r</sup>b<sup>m-h</sup> ∈ L, **non va** 
+
+
+
+
+
+
+
+
 
 
 
