@@ -160,6 +160,9 @@ Se l'automa, leggendo una stringa, partendo da q<sub>0</sub> termina in uno stat
 Base η<sup>*</sup>(q,ε) = ε  
 Passo η<sup>*</sup>(q, y.i) = η<sup>*</sup>(q, y).η(δ<sup>*</sup>(q, y), i)  
 
+* L'intero calcolo di una traduzione è quindi formalizzato come:  τ(x) = η<sup>*</sup>(q<sub>0</sub>,x) ⇔ δ<sup>*</sup>(q<sub>0</sub>,x) ∈ **F**  
+
+
 
 
 
