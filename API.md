@@ -199,7 +199,22 @@ sia x ∈ L, x = a<sup>m</sup>b<sup>m</sup>, m/2 > |Q|, applicando il pumping le
 
 ## Il concetto di chiusura 
 
-**Chiusura algebrica** 
+### Chiusura algebrica 
+
+Dati un insieme S, ed un’operazione definita sui suoi elementi si dice che S è chiuso rispetto all’operazione, se il risultato di dell’applicarla ad un elemento di S è contenuto in S. 
+
+### Chiusura nei linguaggi 
+
+**chiusura di famiglie di linguaggi**  
+
+* Famiglia di linguaggi: un insieme **L** i cui elementi sono linguaggi, **L** = {L<sub>i</sup>}  
+* L è chiusa rispetto a un’operazione (binaria) ⋆ se ∀L1, L2 ∈ **L** vale L1 ⋆ L2 ∈ **L**  
+
+**Linguaggi regolari**  
+
+* La famiglia di linguaggi riconoscibili con un FSA è la famiglia dei linguaggi regolari, **R** o REG.  
+* **R** è chiusa rispetto a ∪, ∩, ¬, \, alla concatenazione, a ∗ e +
+
 
 
 
