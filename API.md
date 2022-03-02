@@ -281,7 +281,7 @@ La stringa x in ingresso è riconosciuta (accettata) se:
 
 ### Esempio di un traduttore  
 
-**Da L<sub>1</sub> ⊂ {a,b,c}<sup>*</sup> a L<sub>2</sup> ⊂ {a,b,c}<sup>*</sup>**  
+**Da L<sub>1</sub> ⊂ {a,b,c}<sup>*</sup> a L<sub>2</sub> ⊂ {a,b,c}<sup>*</sup>**  
 
 ![traduttore automa a pila](ApiImages/TraduttoreApila.png)  
 
