@@ -283,7 +283,20 @@ La stringa x in ingresso è riconosciuta (accettata) se:
 
 **Da L<sub>1</sub> ⊂ {a,b,c}<sup>*</sup> a L<sub>2</sub> ⊂ {a,b,c}<sup>*</sup>**  
 
-![traduttore automa a pila](ApiImages/TraduttoreApila.png)  
+![traduttore automa a pila](ApiImages/TraduttoreApila.png)   
+
+Questo automa effettua una traduzione impilando A e B fino alla prima c.  
+
+### Formalizzazione  
+
+**Riconoscitore e traduttore**  
+
+* Automa **[Traduttore]** a Pila: ⟨Q, I, Γ, δ, q0, Z0, F **[, O, η]**⟩  
+* Q, I, δ, q<sub>0</sub>, F **[, O]** come nell’FSA **[traduttore]**  
+* Γ alfabeto di pila (per comodità, disgiunto da I,**[, O]**)  
+* Z0 ∈ Γ simbolo iniziale di pila  
+* δ:Q×(I∪{ε})×Γ→Q×Γ<sup>∗</sup> (n.b. δ è parziale)  
+* **η:Q×(I∪{ε})×Γ→O<sup>∗</sup>** (η è definita solo dove lo è δ)
 
 
 
