@@ -213,7 +213,55 @@ Dati un insieme S, ed un’operazione definita sui suoi elementi si dice che S �
 **Linguaggi regolari**  
 
 * La famiglia di linguaggi riconoscibili con un FSA è la famiglia dei linguaggi regolari, **R** o REG.  
-* **R** è chiusa rispetto a ∪, ∩, ¬, \, alla concatenazione, a ∗ e +
+* **R** è chiusa rispetto a ∪, ∩, ¬, \, alla concatenazione, a ∗ e +  
+
+# Automi a pila  
+
+## Aumentiamo la potenza di un FSA  
+
+**Descrizione operativa dell'automa a pila**  
+
+Un FSA ha un organo di controllo (OC) con memoria finita e un nastro di input infinito su cui non può scrivere.
+Se l'automa a pila considerato è un traduttore, esso ha un nastro di output sul quale può solo scrivere.  
+La "memoria" dello stato di calcolo è finita.  
+
+**Una memoria estesa**  
+
+Al concetto descritto prima aggiungiamo una memoria a impilamento:  
+* Infinita
+* Accesso alla sola cima  
+* La lettura cancella  
+* Funziona con metodo LIFO  
+
+**Descrizione Operativa**  
+
+L'automa a pila compie una mossa in funzione di:  
+* simbolo letto dalla cima della pila. 
+* stato corrente nell'FSA che costituisce l'organo di controllo. 
+* Opzionalmente, simbolo letto dal nastro in ingresso  
+
+L'automa a pila passa alla configurazione successiva:  
+* Cambiando stato nell'OC.
+* sostituendo al simbolo in cima allo stack una stringa α di simboli (potenzialmente α = ε)  
+* Spostando (opzionalmente) la testina di lettura  
+* Se l'automa è un traduttore, scrivendo una stringa (potenzialmente nulla)  
+
+### Riconoscitori e traduttori  
+
+**Automa riconoscitore**  
+
+La stringa x in ingresso è riconosciuta (accettata) se:  
+* L'automa scandisce completamente x  
+* Una volta scandita tutta, lo stato dell'OC è di accettazione. 
+
+**Automa traduttore**  
+
+* Se la stringa è accettata, il nastro di scrittura contiene la sua traduzione al termine del calcolo τ(x).  
+* Se la x non è accettata la traduzione è indefinita τ(x) = ⊥  
+
+### Esempio: riconoscere {a<sup>n</sup>b<sup>n</sup> | n > 0} 
+
+
 
 
 
