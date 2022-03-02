@@ -277,7 +277,10 @@ La stringa x in ingresso è riconosciuta (accettata) se:
 
 **Note:**  
 * è una semplificazione del riconoscitore di L = {a<sup>n</sup>b<sup>b</sup>}
-* Verifica solamente che il numero di a coincida con quello di b. 
+* Verifica solamente che il numero di a coincida con quello di b.  
+
+### Esempio di un traduttore da L<sub>1</sub> ⊂ {a,b,c}<sup>*</sup> a L<sub>2</sup> ⊂ {a,b,c}<sup>*</sup>  
+
 
 
 
