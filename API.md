@@ -263,7 +263,17 @@ La stringa x in ingresso è riconosciuta (accettata) se:
 
 **Automa Riconoscitore**  
 
-![Automa Riconoscitore anbn](ApiImages/riconoscitoreAnBn.png)
+![Automa Riconoscitore anbn](ApiImages/riconoscitoreAnBn.png)  
+
+**Convenzioni di notazione**  
+* Etichetta archi: ⟨lettura input, cima della pila/riscrittura in pila⟩  
+* Consideriamo la pila inizializata con Z<sub>0</sub> per marcare il fondo. 
+
+### Stringhe ben parentetizzate  
+
+**Esempio con le parentesi tonde**
+
+
 
 
 
