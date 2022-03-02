@@ -271,11 +271,13 @@ La stringa x in ingresso è riconosciuta (accettata) se:
 
 ### Stringhe ben parentetizzate  
 
-**Esempio con le parentesi tonde**
+**Esempio con le parentesi tonde**  
 
+![Riconoscitore di stringhe con tonde](ApiImages/StringheTonde.png)  
 
-
-
+**Note:**  
+* è una semplificazione del riconoscitore di L = {a<sup>n</sup>b<sup>b</sup>}
+* Verifica solamente che il numero di a coincida con quello di b. 
 
 
 
