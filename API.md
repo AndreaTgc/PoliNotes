@@ -261,6 +261,11 @@ La stringa x in ingresso è riconosciuta (accettata) se:
 
 ### Esempio: riconoscere {a<sup>n</sup>b<sup>n</sup> | n > 0} 
 
+**Automa Riconoscitore**  
+
+![Automa Riconoscitore anbn](ApiImages/riconoscitoreAnBn.png)
+
+
 
 
 
