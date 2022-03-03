@@ -383,6 +383,18 @@ Tra le due varianti presenti esamineremo prima la MT a k nastri per semplicità.
 
 **Componenti**  
 
+* Insieme di stati dell’OC, alfabeto I e **O** come per gli AP. 
+* Ogni nastro di memoria può avere un suo alfabeto dedicato o meno: considereremo un unico alfabeto Γ  
+* Per convenzione storica e semplicità di formalizzazione, i nastri sono sequenze infinite di celle  
+Solo una quantità finita è inizializzata con un valore sensato
+Celle restanti contenenti uno spazio vuoto o *blank*
+* Le tutte testine possono scorrere sui nastri o rimanere ferme  
+* Configurazione di MT: stato dell’OC e contenuto dei nastri  
+
+### Transizione della MT  
+
+
+
 
 
 
