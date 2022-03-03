@@ -408,7 +408,14 @@ Celle restanti contenenti uno spazio vuoto o *blank*
 Testine di memoria e ingresso: 1 posizione a sinistra (L), destra (R) o ferme (S). 
 Testina di output: solo S o R, se si sposta scrive sempre una lettera o un blank. 
 
+**Riconoscitore e Traduttore**  
 
+Transizione δ : Q × (I ∪ {blank}) × Γ<sup>k</sup> → Q × Γ<sup>k</sup> × {L, S, R}<sup>k+1</sup>  
+**Traduzioneη:Q×(I∪{blank})×Γ<sup>k</sup> →(O∪{blank})**  
+
+**Convenzione grafica**  
+
+ ![Convenzione Grafica](ApiImages/ConvenzioneMT.png)  
 
 
 
