@@ -393,6 +393,20 @@ Celle restanti contenenti uno spazio vuoto o *blank*
 
 ### Transizione della MT  
 
+**In funzione di...**  
+
+* Lettura del carattere sotto la testina del nastro di input. 
+* Lettura dei caratteri sotto le testine dei nastro di memoria. 
+* Stato dell’OC. 
+
+**...Azione conseguente**
+
+* Cambiamento di stato dell’OC. 
+* Scrittura di un carattere su ogni nastro di memoria. 
+* **Scrittura di un carattere sul nastro di uscita**. 
+* Spostamento delle testine  
+Testine di memoria e ingresso: 1 posizione a sinistra (L), destra (R) o ferme (S). 
+Testina di output: solo S o R, se si sposta scrive sempre una lettera o un blank. 
 
 
 
