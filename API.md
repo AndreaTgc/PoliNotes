@@ -326,8 +326,8 @@ x ∈ L **∧ [z = τ(x)]** ⇔ c<sub>0</sub> = ⟨qo,x,Z0, **[ε]**⟩ ⊢<sup>
 
 **Cosa posso riconoscere?**  
 
-Un AP è in grado di riconoscere {a<sup>n</sup>b<sup>n</sup> | n > 0}, {a<sup>n</sup>b<sup>3</sup>n | n > 0}  
-Posso riconoscere {a<sup>n</sup>b<sup>n</sup>c<sup>n</sup> | n > 0}?  
+Un AP è in grado di riconoscere {a<sup>n</sup>b<sup>n</sup> con n > 0}, {a<sup>n</sup>b<sup>3</sup>n con n > 0}  
+Posso riconoscere {a<sup>n</sup>b<sup>n</sup>c<sup>n</sup> con n > 0}?  
 
 * **NO** intuitivamente: dopo aver impilato per contare le a e spilato per contare le b, come conto le c?  
 * Per la dimostrazione formale si usa l'estensione del pumping lemma per i linguaggi riconosciuti dagli AP 
