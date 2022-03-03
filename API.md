@@ -296,7 +296,23 @@ Questo automa effettua una traduzione impilando A e B fino alla prima c.
 * Γ alfabeto di pila (per comodità, disgiunto da I,**[, O]**)  
 * Z0 ∈ Γ simbolo iniziale di pila  
 * δ:Q×(I∪{ε})×Γ→Q×Γ<sup>∗</sup> (n.b. δ è parziale)  
-* **η:Q×(I∪{ε})×Γ→O<sup>∗</sup>** (η è definita solo dove lo è δ)
+* **η:Q×(I∪{ε})×Γ→O<sup>∗</sup>** (η è definita solo dove lo è δ)  
+
+### Generalizzare lo stato  
+
+**Il concetto di configurazione**  
+
+Catturare lo stato di un automa a pila (AP o PDA *Push down automata*) richiede giustamente più informazioni rispetto ad un FSA. 
+Chiamiamo lo stato di un AP *configurazione* c = ⟨q, x, γ, **[z]**⟩; q è lo stato dell'organo di controllo, x la stringa ancora da leggere, γ la stringa dei caratteri in pila (la prima cresce da destra verso sinistra) e z è la stringa scritta in output. 
+
+**Transizione tra configurazioni**  
+
+Transizione di un AP: c ⊢ c′ : ⟨q, x, γ, **[z]**⟩ ⊢ ⟨q′, x′, γ′, **[z′]**) 
+Per chiarezza abbiamo γ = βA, definiamo, a seconda dei casi:  
+* **Lettura effettiva**: con x = i.y e δ(q, i, A) = ⟨q′, α⟩ (definita, non ⊥)  
+**[η(q,i,A) = w]** abbiamo x′ = y, γ′ = βα, **[z′ = z.w]**  
+* **ε-Lettura**: con x = y e δ(q,ε,A) = ⟨q′,α⟩ (definita, non ⊥) **[η(q,ε,A) = w]**  
+abbiamo x′ =y,γ′ =βα, **[z′ =z.w]**  
 
 
 
