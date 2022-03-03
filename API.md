@@ -364,6 +364,29 @@ Si può trasformare ogni AP con cicli di ε mosse in uno equivalente privo di es
 Serve “forzare” l’automa ad accettare solo alla fine di una sequenza (necessariamente finita) di ε mosse. 
 * Più della tecnica di dimostrazione è importante: per impiegare la macchina che risolve il “problema positivo” anche per risolvere il “complemento” serve essere sicuri che termini
 
+# Macchine di Turing 
+
+## Un modello di calcolo universale  
+
+Gli AP sono decisamente più potenti degli FSA ma presentano ancora grosse limitazioni.  
+Esaminiamo ora un modello di calcolo con maggiori capacità...  
+* Saremo in grado di effettuare praticamente qualunque calcolo  
+* Esamineremo il costo di tale generalità espressiva 
+
+Il modello è la *Macchina di Touring (MT)*. Essa è uno dei primi modelli di calcolo incredibilmente semplici nella loro efficacia.
+Esaminiamo ora il funzionamento come riconoscitore e **traduttore**, in seguito le proprietà universali del calcolo automatico. 
+Tra le due varianti presenti esamineremo prima la MT a k nastri per semplicità.  
+
+## Modello a K nastri
+
+![macchina di Turing a K nastri](ApiImages/MTaKNastri.png)  
+
+**Componenti**  
+
+
+
+
+
 
 
 
