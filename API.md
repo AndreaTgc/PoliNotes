@@ -327,7 +327,7 @@ x ∈ L **∧ [z = τ(x)]** ⇔ c<sub>0</sub> = ⟨qo,x,Z0, **[ε]**⟩ ⊢<sup>
 **Cosa posso riconoscere?**  
 
 Un AP è in grado di riconoscere {a<sup>n</sup>b<sup>n</sup>|n > 0}, {a<sup>n</sup>b<sup>3</sup>n|n > 0}  
-Posso riconoscere {a<sup>n</sup>b<sup>n</sup>c<sup>n</sup> |n >0}?  
+Posso riconoscere {a<sup>n</sup>b<sup>n</sup>c<sup>n</sup>|n >0}?  
 
 * **NO** intuitivamente: dopo aver impilato per contare le a e spilato per contare le b, come conto le c?  
 * Per la dimostrazione formale si usa l'estensione del pumping lemma per i linguaggi riconosciuti dagli AP 
@@ -335,7 +335,7 @@ Posso riconoscere {a<sup>n</sup>b<sup>n</sup>c<sup>n</sup> |n >0}?
 x=pvcws ∈ L<sub>AP</sub>,|x| ≥ p con |vcw| ≤ p,|vc| ≥ 1 ⇔ ∀n∈N, pv<sup>n</sup>cw<sup>n</sup>s ∈ L<sub>AP</sub>  
 * La pila è, per definizione, una memoria distruttiva: per leggere occorre cancellare degli elementi!  
 
-Un AP è in grado di riconoscere sia {a<sup>n</sup>b<sup>n</sup> |n > 0} che {a<sup>n</sup>b<sup>2n</sup> |n > 0}  
+Un AP è in grado di riconoscere sia {a<sup>n</sup>b<sup>n</sup>|n > 0} che {a<sup>n</sup>b<sup>2n</sup>|n > 0}  
 Posso riconoscere l'unione tra di essi?  
 
 
