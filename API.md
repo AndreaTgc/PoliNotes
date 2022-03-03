@@ -352,6 +352,17 @@ Posso riconoscere l'unione tra di essi?
 * L<sub>AP</sub> non è chiusa rispetto all'unione (come visto prima) ma è chiusa rispetto al complemento.  
 * L<sub>AP</sub> non è chiusa rispetto all'intersezione!  
 
+### Costruire il complemento  
+
+**Difficoltà nella costruzione**  
+
+* La δ dell’automa va completata come per gli FSA con lo stato di errore. 
+Le ε mosse possono introdurre non-determinismo. 
+* Un ciclo di ε mosse può evitare che l’automa proceda (stringa non accettata, neppure dall’automa con F′ = Q \ F)  
+Si può trasformare ogni AP con cicli di ε mosse in uno equivalente privo di essi. 
+* Se esiste una sequenza ⟨q<sub>1</sub>, ε, γ<sub>1</sub>⟩ ⊢ ⟨q<sub>2</sub>, ε, γ<sub>2</sub>⟩ ⊢ ⟨q<sub>3</sub>, ε, γ<sub>3</sub>⟩ dove solo q<sub>1</sub>, q<sub>3</sub> ∈ F, ma q<sub>2</sub> non è elemento di F cosa succede?  
+Serve “forzare” l’automa ad accettare solo alla fine di una sequenza (necessariamente finita) di ε mosse. 
+* Più della tecnica di dimostrazione è importante: per impiegare la macchina che risolve il “problema positivo” anche per risolvere il “complemento” serve essere sicuri che termini
 
 
 
