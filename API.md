@@ -338,6 +338,24 @@ x=pvcws ∈ L<sub>AP</sub>,|x| ≥ p con |vcw| ≤ p,|vc| ≥ 1 ⇔ ∀n∈N, pv
 Un AP è in grado di riconoscere sia {a<sup>n</sup>b<sup>n</sup>|n > 0} che {a<sup>n</sup>b<sup>2n</sup>|n > 0}  
 Posso riconoscere l'unione tra di essi?  
 
+* **NO** intuitivamente è molto simile a prima. 
+* se svuoto la pila per contare le prime n b perdo memoria per contare le successive  
+* Se ne svuoto solo metà, e ce ne sono solo n non so se sono a metà pila. 
+* Intuitivamente: mi servirebbe “dare un’occhiata” in avanti sull’input, per un numero arbitrariamente grande di caratteri 
+* Formalizzazione diversa dal precedente (non banale, diversa dal dalla precedente, serve il double-service lemma). 
+
+### Conseguenze delle proprietà  
+
+**La famiglia L<sub>AP</sub>**  
+
+* L<sub>AP</sub> è la famiglia di linguaggi riconosciuti dagli AP deterministici.
+* L<sub>AP</sub> non è chiusa rispetto all'unione (come visto prima) ma è chiusa rispetto al complemento.  
+* L<sub>AP</sub> non è chiusa rispetto all'intersezione!  
+
+
+
+
+
 
 
 
