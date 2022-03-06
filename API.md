@@ -458,6 +458,27 @@ L'unica chiusura non valida per le MT è quella rispetto al complemento
 
 ### Modelli equivalenti alle MT 
 
+**Turing completezza**  
+
+Possiamo costruire dei modelli di calcolo equivalenti alle MT  
+* Una MT con un nastro bidimensionale 
+* Una MT con k testine per nastro  
+* Un AP con due pile (esse messe l'una di fronte all'altra simulano un nastro infinito nel mezzo)  
+
+Idea generale &rarr; Per mostrare che sono equivalenti vengono messi in una corrispondenza biunivoca le transizioni della MT "classica" e quelle del modello di calcolo che stiamo proponendo. 
+Se un modello di calcolo è in grado di simulare una macchina di Turing esso viene detto *Turing completo*. 
+
+**MT a nastro singolo** 
+
+Una particolare variazione delle MT "classiche" è la MT a nastro singolo, in essa input, output e memoria si trovano sullo stesso nastro; questo è il modello iniziale proposto da Alan Turing. 
+Questa particolare MT è equivalente alle MT a k nastri  
+
+**Differenza con modelli più realistici**  
+
+* Una MT è in grado di simulare il comportamento di una macchina di von Neumann (opportunamente “astratta”, con memoria infinita)  
+* La differenza principale è la modalità di accesso alla memoria
+
+
 
 
 
