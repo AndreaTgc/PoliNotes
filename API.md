@@ -417,7 +417,46 @@ Transizione δ : Q × (I ∪ {blank}) × Γ<sup>k</sup> → Q × Γ<sup>k</sup> 
 
  ![Convenzione Grafica](ApiImages/ConvenzioneMT.png)  
 
+* Mossa m<sub>in</sup> ∈ {L, S, R}: testina di input. 
+* Nastri da i = 1 a i = k → memoria, mosse m<sub>i</sub> ∈ {L,S,R}  
+* **Nastro k + 1 → output, m<sub>k+1</sub> ∈ {S, R}**  
 
+**Configurazione iniziale**  
+
+* Tutti i nastri di memoria pieni di *blank*, tranne nella posizione iniziale della rispettiva testina dove c'è z<sub>0</sub>  
+* Per farvi riferimento, la posizione della testina conta da 0  
+* Stato iniziale dell'OC pari a q<sub>0</sub>  
+* Stringa in ingresso x scritta a partire dalla cella 0 del nastro in ingresso, seguita e proceduta da *blank*  
+* **nastro di output riempito con *blank***  
+
+**Configurazione finale e accettazione**  
+
+* Gli stati di accettazione sono come quelli delle FSA &rarr; F ⊆ Q  
+* Per comodità (convenzione) la δ, **η** non è definita a partire dagli stati finali :
+∀q ∈ F, δ(q,...) = ⊥, **η(q,...) = ⊥**  
+* La MT si ferma in uno stato q se δ(q,...) = ⊥  
+* La stringa x in ingresso viene accettata se e solo se, con un numero finito di transizioni, la MT si ferma in uno stato tra quelli finali  
+
+**Mancata accettazione**  
+
+una stringa non viene accettata in 2 casi: 
+* La MT si ferma in uno stato non finale. 
+* La MT non si ferma affatto.  
+
+### Proprietà di chiusura  
+
+**Chiusure valide**  
+
+* **∩** &rarr; La MT simula l'esecuzione di 2 in serie  
+* **∪** &rarr; La MT simula l'esecuzione di 2 in parallelo  
+* **Concatenazione** &rarr; ragionamento simile a ∩  
+* **operazione asterisco** &rarr; vedi concatenazione  
+
+**Chiusure non valide** 
+
+L'unica chiusura non valida per le MT è quella rispetto al complemento  
+
+### Modelli equivalenti alle MT 
 
 
 
