@@ -96,3 +96,21 @@ Proteins exert a biological function (which depends on the structure and the che
 
 ![CentralDogmaOfBiology](BioImages/CentralDogmaOfBiology.png "The central dogma of molecular biology")  
 
+### Proteins  
+
+Proteins are polypeptides (chains of individual amino acids).  
+Basic amino acid structure &rarr; amino group (-NH<sub>3</sub><sup>+</sup>), R group (carbon with side chain R), carboxyl group (-CO<sub>2</sub><sup>-</sup>).  
+The orientation of the amino acid chain is from "N-terminous" to "C-terminous".  
+
+![AminoChain](BioImages/1stLectureAminoChain.png "Structure of the amino acids")  
+
+**Protein Functions**  
+
+Proteins are involved in most of the tasks essential for life: 
+* **Structural proteins** &rarr; building blocks of the cells. 
+* **Receptor and channel proteins** &rarr; transmembrane proteins which can relay signals into the cell or shittle substances between compartments of the cell or the cell and the extracellular environment. 
+* **Signaling proteins** &rarr; relay signals within the cell.  
+* **Enzymes** &rarr; catalyze chemical reactions necessary for the energy metabolism.  
+* **Transcription factors** &rarr; bind to DNA to control gene transcription.
+
+
