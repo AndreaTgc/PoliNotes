@@ -503,8 +503,18 @@ Simmetricamente, un modello di esecuzione non deterministico può essere utile c
  Questo FSA effettua tutte le computazioni possibili, se almeno una di essa termina in uno stato finale la stringa viene accettata.
  **NOTA BENE** &rarr; un FSA non deterministico può avere più di un solo stato finale (ma sempre un solo stato iniziale).  
  
- Posso sempre costruire un automa a stati finiti deterministico partendo dal suo equivalente non deterministico. (processo decisamente ostico se ci va male in quanto gli stati di un automa deterministico possono essere alla peggio 2<sup>stati del non deterministico</sup>. 
- A differenza di quanto si possa pensare gli FSA non deterministici non hanno un potere espressivo maggiore rispetto alle loro controparti deterministiche.  
+Posso sempre costruire un automa a stati finiti deterministico partendo dal suo equivalente non deterministico. (processo decisamente ostico se ci va male in quanto gli stati di un automa deterministico possono essere alla peggio 2<sup>stati del non deterministico</sup>.  
+ 
+A differenza di quanto si possa pensare gli FSA non deterministici non hanno un potere espressivo maggiore rispetto alle loro controparti deterministiche.  
+
+**Comodità di specifica**  
+
+Sapendo che gli FSA non deterministici e deterministici hanno lo stesso potere espressivo, perchè mai dovremmo mantenere l'utilizzo di quelli non deterministici?  
+Può essere comodo specificare un FSA non deterministico per poi ricavare quello deterministico, senza avere il compito di concepire da 0 quello deterministco.  
+
+### Automi a pila non deterministici  
+
+
  
 
  
