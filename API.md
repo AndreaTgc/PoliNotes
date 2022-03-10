@@ -531,6 +531,33 @@ Gli automi a pila non deterministici non sono più potenti di quelli determinist
 Osservando l'immagine sopra si può notare come gli automi a pila non deterministici siano chiusi rispetto all'unione (a differenza di quelli deterministici)  
 Essi però non sono chiusi rispetto all'intersezione e, di conseguenza, nemmeno rispetto al complemento.  
 
+### Macchine di turing non deterministiche  
+
+**Definizione e caratteristiche**  
+
+δ : Q × I × Γ<sup>k</sup> → ℘(Q × Γ<sup>k</sup> × {L, S, R}) (perchè ℘ e non ℘<sub>F</sub> ?)  
+Configurazione, transizione, sequenza di transizioni e accettazione definite come negli altri casi. 
+
+![Esempio di computazione di una MT non deterministica](ApiImages/ComputazioneMTND.png) 
+ 
+* Computazione in verde &rarr; accettante.  
+* Computazione in rosso &rarr; non accettante.  
+
+**Emulare una MT non deterministica con una deterministica**  
+
+x è accettata da una MT ND solo se esiste un calcolo che termina in uno stato di accettazione.  
+*Come posso emulare una MT ND con una MT D?*  
+* Percorrere l’albero delle computazioni ND per stabilire se esiste un percorso che termina in uno stato di accettazione.  
+* Nel caso di un albero “normale”, esistono algoritmi consolidati per effettuare questa visita.  
+
+*Come gestisco le computazioni che non terminano?*  
+* Visita dell’albero “in ampiezza”.  
+* Costruisco una MT D che scandisce le configurazioni della ND a partire dalle più vicine a c<sub>0</sub>  
+* Intuitivamente: se la MT ND termina, termina anche la mia MT D con lo stesso esito. 
+
+## Considerazioni finali sul non determinismo 
+
+
  
 
  
