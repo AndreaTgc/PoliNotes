@@ -484,7 +484,30 @@ Questa particolare MT è equivalente alle MT a k nastri
 
 ## Modelli deterministici e non deterministici a confronto  
 
+Nella maggior parte dei casi un algoritmo è una *sequenza deterministica* di passi perchè, dato uno stato della computazione e un input, il passo successivo è unico.  
+Detto ciò, non sempre l'ordine dei passi è fondamentale.  
 
+**La comodità del non determinismo**  
+
+Una descrizione di un algoritmo non deterministico è solitamente più compatta, inoltre per la realizzazione pratica si possono sfruttare più esecutori.  
+Simmetricamente, un modello di esecuzione non deterministico può essere utile come semantica del calcolo in parallelo.  
+
+## Versioni non deterministiche dei modelli noti  
+
+### Automi a stati finiti non deterministici  
+
+ ![FSA non deterministico](ApiImages/FSAnonDet.png)  
+ 
+ La δ diventa δ : Q × I &rarr; ℘(Q)  
+ 
+ Questo FSA effettua tutte le computazioni possibili, se almeno una di essa termina in uno stato finale la stringa viene accettata.
+ **NOTA BENE** &rarr; un FSA non deterministico può avere più di un solo stato finale (ma sempre un solo stato iniziale).  
+ 
+ Posso sempre costruire un automa a stati finiti deterministico partendo dal suo equivalente non deterministico. (processo decisamente ostico se ci va male in quanto gli stati di un automa deterministico possono essere alla peggio 2<sup>stati del non deterministico</sup>. 
+ 
+
+
+ 
 
 
 
