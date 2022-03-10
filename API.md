@@ -563,6 +563,11 @@ x è accettata da una MT ND solo se esiste un calcolo che termina in uno stato d
 * Aumenta la potenza dei soli AP (tra i formalismi visti). 
 * Può essere applicato praticamente a tutti i modelli di calcolo (estensione facile ai traduttori). 
 
+# Le Grammatiche  
+
+I modelli di calcolo visti fino ad ora sono in grado di riconoscere se una stringa appartiene ad un dato linguaggio.  
+Vediamo ora però un modello *generativo* del linguaggio &rarr; la grammatica. 
+In generale, una grammatica (sintassi) è un insieme finito di regole che definiscono le frasi di un linguaggio. 
 
 
 
