@@ -527,7 +527,7 @@ Gli automi a pila, a differenza di quelli a stati finiti, sono *naturalmente* no
  
  
 L’automa precedente è in grado di riconoscere {a<sup>n</sup>b<sup>n</sup>} ∪ {a<sup>n</sup>b<sup>2n</sup>}  
-Gli automi a pila non deterministici non sono più potenti di quelli deterministici. 
+Gli automi a pila non deterministici sono più potenti di quelli deterministici. 
 Osservando l'immagine sopra si può notare come gli automi a pila non deterministici siano chiusi rispetto all'unione (a differenza di quelli deterministici)  
 Essi però non sono chiusi rispetto all'intersezione e, di conseguenza, nemmeno rispetto al complemento.  
 
@@ -555,7 +555,17 @@ x è accettata da una MT ND solo se esiste un calcolo che termina in uno stato d
 * Costruisco una MT D che scandisce le configurazioni della ND a partire dalle più vicine a c<sub>0</sub>  
 * Intuitivamente: se la MT ND termina, termina anche la mia MT D con lo stesso esito. 
 
-## Considerazioni finali sul non determinismo 
+## Considerazioni finali sul non determinismo  
+
+**Un utile formalismo**  
+
+* Utile per rappresentare problemi/algoritmi dove alcune scelte locali non sono fattibili al momento/importanti.  
+* Aumenta la potenza dei soli AP (tra i formalismi visti). 
+* Può essere applicato praticamente a tutti i modelli di calcolo (estensione facile ai traduttori). 
+
+
+
+
 
 
  
