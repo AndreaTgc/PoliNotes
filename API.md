@@ -476,7 +476,15 @@ Questa particolare MT è equivalente alle MT a k nastri
 **Differenza con modelli più realistici**  
 
 * Una MT è in grado di simulare il comportamento di una macchina di von Neumann (opportunamente “astratta”, con memoria infinita)  
-* La differenza principale è la modalità di accesso alla memoria
+* La differenza principale è la modalità di accesso alla memoria; una macchina di Von Neumann accede alla memoria attraverso gli indirizzi mentre una MT scorre il nastro opportuno.  
+* non c'è alcuna differenza nella capacità espressiva di questi due modelli. 
+* Spesso cambiare il modello influisce sulla complessità del calcolo e, di conseguenza, sul tempo e risorse impiegate. 
+
+# Non determinismo  
+
+## Modelli deterministici e non deterministici a confronto  
+
+
 
 
 
