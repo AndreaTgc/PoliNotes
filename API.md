@@ -521,6 +521,15 @@ Gli automi a pila, a differenza di quelli a stati finiti, sono *naturalmente* no
  Otteniamo la δ<sub>AP-ND</sub> :Q × (I ∪ {ε}) × Γ → ℘<sub>F</sub>(Q × Γ<sup>∗</sup>)  
  L’AP non deterministico accetta x se esiste una sequenza c<sub>0</sub> ⊢<sup>*</sup> {c1, . . . cn} con c<sub>0</sub> = ⟨q<sub>0</sub>, x, Z<sub>0</sub>⟩, c<sub>1</sub> = ⟨q, ε, γ⟩, q ∈ F
 
+**Esempio di riconoscitore**  
+
+ ![AP non deterministico riconoscitore](ApiImages/APriconoscitoreND.png)  
+ 
+ 
+L’automa precedente è in grado di riconoscere {a<sup>n</sup>b<sup>n</sup>} ∪ {a<sup>n</sup>b<sup>2n</sup>}  
+Gli automi a pila non deterministici non sono più potenti di quelli deterministici. 
+Osservando l'immagine sopra si può notare come gli automi a pila non deterministici siano chiusi rispetto all'unione (a differenza di quelli deterministici)  
+Essi però non sono chiusi rispetto all'intersezione e, di conseguenza, nemmeno rispetto al complemento.  
 
  
 
