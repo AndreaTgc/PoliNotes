@@ -514,6 +514,13 @@ Può essere comodo specificare un FSA non deterministico per poi ricavare quello
 
 ### Automi a pila non deterministici  
 
+Gli automi a pila, a differenza di quelli a stati finiti, sono *naturalmente* non deterministici, basta semplicemente eliminare la restrizione imposta fino ad ora.  
+
+ ![AP non deterministici](ApiImages/APnonDet.png)  
+ 
+ Otteniamo la δ<sub>AP-ND</sub> :Q × (I ∪ {ε}) × Γ → ℘<sub>F</sub>(Q × Γ<sup>∗</sup>)  
+ L’AP non deterministico accetta x se esiste una sequenza c<sub>0</sub> ⊢<sup>*</sup> {c1, . . . cn} con c<sub>0</sub> = ⟨q<sub>0</sub>, x, Z<sub>0</sub>⟩, c<sub>1</sub> = ⟨q, ε, γ⟩, q ∈ F
+
 
  
 
