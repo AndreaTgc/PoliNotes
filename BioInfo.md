@@ -216,8 +216,43 @@ the term "NGS" refers to one of a number of technologies that enable a massive p
 
 ### Illumina sequencing  
 
-a
+There have been multiple new generation sequencing technology, at present, the techonology of illumina seems to be far superior for most applications. 
+It has four basic steps: 
+* DNA and Library preparation &rarr; make random DNA fragments and happend adapters.  
+* Chip/Flowcell prep &rarr; attach fragments to surface and amplify. 
+* Sequence &rarr; Massively parallel DNA sequencing. 
+* Analyze &rarr; Bioinformatics starts here. 
 
+Understanding the first three steps is fundamental in order to understand the fourth one.  
+* To be able to process error-prone biological data, it is important to know how such data is experimentally produced!  
+
+**Library prep** 
+
+Purpose of library prep &rarr; create a collection of DNA fragments ready to be sequenced.  
+There are four major substeps for library prep (about 6 hours of lab work): 
+* Fragment the genomic DNA (1)  
+* Repair ends and add **A** overhang (2)  
+* Ligate adapters to DNA fragments  (3)  
+* Select ligated DNA  (4)  
+
+Library prep (1): Fragmentation &rarr; Most Illumina protocols require that DNA is fragmented to less than 800 nt.  
+Ideally fragments should have uniform size but in reality the follow a narrow distribution, or at least that's what we hope.  
+Fragmentation can be done in multiple ways, for example: 
+* Sonification &rarr; uses ultrasound waves in solution to shear DNA.
+* Nebulization &rarr; forcing solution of genomic DNA to pass as a fine mist through a small hole in the nebulizer; repeatedly done. 
+
+
+Library prep (2): End repair &rarr; : downstream enzymatic steps won’t work unless the DNA fragments are *nice!*  
+After fragmentation, DNA fragments can have 5′- or 3′-overhangs which need to be repaired:  
+* Reconstruct reverse strand at 5′ overhangs (DNA polymerase). 
+* Cleave away 3′ overhangs (exonuclease) 
+We also need to be sure that the phosphate (P) group isn’t missing at the 5′ ends.  
+Moreover: A-tails (single adenine) are added for downstream steps: 
+* Purpose: keep DNA fragments from ligating with each other & enable ligation to adaptors (which cleverly are designed to have a ’T’-base overhang)
+
+![ImageOfOverhangers](BioImages/Overhangers.png "Overhangers")
+
+Library prep (3): Adapter ligation
 
 
 
