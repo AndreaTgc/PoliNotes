@@ -146,6 +146,34 @@ mRNA transcripts are *translated* into proteins by the rybosome.
 
 ![RNAtranslation](BioImages/RNATranslation.png "") 
 
+The genetic code *codons* are nucleotide triples that encode amino acids.  
+Translation starts at an AUG and ends with the first UAA, UAG, UGA.  
+
+![Codons](BioImages/1stLectureCodons.png "")  
+
+Each codon is recognized by a tRNA which carries the correct amino acid.  
+In eukaryotes, transcription and translation happen in two different compartments, allowing for alternate splicing. This doesn't happen in prokaryotes.  
+
+### How does the cellular system work?  
+
+As you may already be able to tell, the cellular system is extremely complex.
+If we want to know how it works we need to know everything about it. 
+* How does gene transcription work?
+* When are genes transcribed and at what level? (regulatory mechanisms) 
+* When are transcripts degraded?
+* How does protein synthesis work? What quantities of proteins are produced?
+* How do specific molecules work (proteins, non-coding RNAs, ...)?
+* How do specific molecules interact to exert a specific function?
+* How are cellular processes intertwined and support or inhibit each other?
+* How does the system dynamically change over time? How does the system change under certain conditions?
+* How is it affected by disease (viruses, cancer, hereditary disorders, ...)?
+
+### "-Omes" and "-Omics"  
+
+The central dogma revisited:  
+
+![CentralDogmaRevisited](BioImages/CentralDogma2.0.png "")   
+
 
 
 
