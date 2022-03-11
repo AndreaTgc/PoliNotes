@@ -200,6 +200,12 @@ Ingredients:
 
 ![SangerSequencing](BioImages/SangerSequencing.png "")  
 
+**Tne key idea of Sanger sequencing: dideoxy nucleotides**  
+
+![DideoxyNucleotides](BioImages/DideoxyNucleotides.png "")  
+
+
+
 
 
 
