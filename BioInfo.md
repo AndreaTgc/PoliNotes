@@ -202,7 +202,19 @@ Ingredients:
 
 **Tne key idea of Sanger sequencing: dideoxy nucleotides**  
 
-![DideoxyNucleotides](BioImages/DideoxyNucleotides.png "")  
+![DideoxyNucleotides](BioImages/DIdeoxyNucleotides.png "")  
+
+A dideoxy nucleotide (ddNTP) stops DNA synthesis at specific nucleotides.  
+For example, if the ddCTP to the right is incorporated into a growing strand of DNA, the lack of a free OH group at the 3′ carbon would prevent the next nucleotide from being added and thereby *terminate the chain extension!*. 
+this type of sequencing was initially done with radioactively marked terminating nucleotides, e.g., ddATP–[α-<sup>33</sup>P]. 
+
+### Next generation sequencing (NGS)  
+
+![NextGenerationSequencing](BioImages/NextGenerationSequencing.png "")  
+
+the term "NGS" refers to one of a number of technologies that enable a massive parallelization of DNA sequencing; due to the extreme technology advantages, the cost of the whole-genome sequencing (WGS) has dropped significantly.  
+
+
 
 
 
