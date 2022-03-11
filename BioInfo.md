@@ -172,7 +172,33 @@ If we want to know how it works we need to know everything about it.
 
 The central dogma revisited:  
 
-![CentralDogmaRevisited](BioImages/CentralDogma2.0.png "")   
+![CentralDogmaRevisited](BioImages/CentralDogma2.png "")   
+
+"...Ome" is the complete set of: 
+* Genome: Genes/Genetic material  
+* Transcriptone: transcripts  
+* Proteome: Proteins 
+* Interactome: molecular interactions  
+* Metabolome: chemicals involved in metabolic reactions 
+
+"...Omics" is the study of: 
+* (see everything above) by the means of high-throughput methods.  
+
+## Sequencing 
+
+### Sanger sequencing  
+
+It's a sequencing method based on the synthesis of the complementary strand.  
+Basic idea &rarr; start from single- stranded DNA, reconstruct the reverse strand (similar to DNA replication) and check which bases you have to add to reconstruct it!  
+It's a classical chain-termination method.  
+Ingredients: 
+* single-stranded DNA template
+* DNA primer
+* DNA polymerase
+* normal deoxynucleotide-triphosphates (dNTPs)
+* “chain-terminating”, dideoxy NTPs (ddNTPs)
+
+![SangerSequencing](BioImages/SangerSequencing.png "")  
 
 
 
