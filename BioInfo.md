@@ -214,7 +214,7 @@ this type of sequencing was initially done with radioactively marked terminating
 
 the term "NGS" refers to one of a number of technologies that enable a massive parallelization of DNA sequencing; due to the extreme technology advantages, the cost of the whole-genome sequencing (WGS) has dropped significantly.  
 
-
+### Illumina sequencing  
 
 
 
