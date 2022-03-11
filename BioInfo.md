@@ -144,12 +144,12 @@ Alternative splicing of transcripts allows to have different gene products from 
 
 mRNA transcripts are *translated* into proteins by the rybosome. 
 
-![RNAtranslation](BioImages/RNATranslation.png "") 
+![RNAtranslation](BioImages/RNATranslation.png "RNA translation") 
 
 The genetic code *codons* are nucleotide triples that encode amino acids.  
 Translation starts at an AUG and ends with the first UAA, UAG, UGA.  
 
-![Codons](BioImages/1stLectureCodons.png "")  
+![Codons](BioImages/1stLectureCodons.png "Codons")  
 
 Each codon is recognized by a tRNA which carries the correct amino acid.  
 In eukaryotes, transcription and translation happen in two different compartments, allowing for alternate splicing. This doesn't happen in prokaryotes.  
@@ -172,7 +172,7 @@ If we want to know how it works we need to know everything about it.
 
 The central dogma revisited:  
 
-![CentralDogmaRevisited](BioImages/CentralDogma2.png "")   
+![CentralDogmaRevisited](BioImages/CentralDogma2.png "Central dogma rivisited")   
 
 "...Ome" is the complete set of: 
 * Genome: Genes/Genetic material  
@@ -198,11 +198,11 @@ Ingredients:
 * normal deoxynucleotide-triphosphates (dNTPs)
 * “chain-terminating”, dideoxy NTPs (ddNTPs)
 
-![SangerSequencing](BioImages/SangerSequencing.png "")  
+![SangerSequencing](BioImages/SangerSequencing.png "sanger sequencing")  
 
 **Tne key idea of Sanger sequencing: dideoxy nucleotides**  
 
-![DideoxyNucleotides](BioImages/DIdeoxyNucleotides.png "")  
+![DideoxyNucleotides](BioImages/DIdeoxyNucleotides.png "nucleotides")  
 
 A dideoxy nucleotide (ddNTP) stops DNA synthesis at specific nucleotides.  
 For example, if the ddCTP to the right is incorporated into a growing strand of DNA, the lack of a free OH group at the 3′ carbon would prevent the next nucleotide from being added and thereby *terminate the chain extension!*. 
@@ -210,7 +210,7 @@ this type of sequencing was initially done with radioactively marked terminating
 
 ### Next generation sequencing (NGS)  
 
-![NextGenerationSequencing](BioImages/NextGenerationSequencing.png "")  
+![NextGenerationSequencing](BioImages/NextGenerationSequencing.png "NGS")  
 
 the term "NGS" refers to one of a number of technologies that enable a massive parallelization of DNA sequencing; due to the extreme technology advantages, the cost of the whole-genome sequencing (WGS) has dropped significantly.  
 
