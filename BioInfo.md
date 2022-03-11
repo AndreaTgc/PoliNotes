@@ -113,4 +113,48 @@ Proteins are involved in most of the tasks essential for life:
 * **Enzymes** &rarr; catalyze chemical reactions necessary for the energy metabolism.  
 * **Transcription factors** &rarr; bind to DNA to control gene transcription.
 
+### Transcription  
+
+One strand of DNA is copied into a reverse complementary RNA molecule. 
+* In prokaryotes (without nucleus) &rarr; mRNA  
+* In eukaryotes (with nucleus) &rarr; Pre-mRNA  
+
+DNA is copied into RNA by an RNA polymerase (usually RNA polymerase II).
+Transcription's start is aided by transcription factors (TFs) bound on the *Promoter* of this gene.
+Transcription's start can also be aided by TFs bound to a distant *Enhancer*.  
+
+### RNA splicing 
+
+In eukaryotic cells, transcripted RNA is often spliced before being exported from the nucleus to the cytoplasm.  
+Let's now focus on **Introns** and **Exons**:  
+* Introns (grey) &rarr; they are *spliced out* (biochemically removed). 
+* Exons (green and red) &rarr; they remain to form the mature mRNA 
+A protein coding RNA begins (5') and ends (3') with untrasnlated regions (UTRs). 
+A 5′-cap and a 3′ poly-A tail are often added to the transcript.  
+
+![RNAsplicing](BioImages/RNAsplicing.png "the process of RNA splicing")  
+
+**Alternative splicing**  
+
+Alternative splicing of transcripts allows to have different gene products from the same gene.  
+
+![AlternateRNAsplicing](BioImages/AlternateSplicing.png "the process of RNA splicing")  
+
+### Translation (protein synthesis)  
+
+mRNA transcripts are *translated* into proteins by the rybosome. 
+
+![RNAtranslation](BioImages/RNATranslation.png "") 
+
+
+
+
+
+
+
+
+
+
+
+
 
