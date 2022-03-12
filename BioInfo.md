@@ -282,6 +282,35 @@ Purpose &rarr; Amplify single molecules attached to flowcell as described above 
 
 ![BridgeAmplification](BioImages/BridgeAmplification.png "Bridge Amplification")  
 
+* Single-stranded DNA molecule (1) bends and hybridizes to a second oligo on the flowcell surface (2). 
+* Extension (reconstruction of reverse complementary strand) is performed all the way back to the other oligo: a “bridge” of double-stranded DNA (3). 
+* Each strand of the bridge is covalently attached to a different oligo! (3). 
+* Denaturation seperates the two strands, so that they again can bend and hybridize to another oligo (repeat from step 1, now with twice as many fragments!  
+* This is repeated several times to create a cluster of copies of the original DNA fragment!  
+* Finally: both strands are present; keep only fragments from one of the two strands, those of the reverse strand are cleaved away. 
+
+### Sequencing by synthesis  
+
+Sequencing by synthesis (SBS) is relatively easy to understand after all the preparation steps.  
+Basic idea &rarr; reconstruct the reverse strand, but in each "cycle" add only one nucleotide and identify it.  
+* Incorporate one base at a time using four differently marked ddNTPs (fluorescent dyes of different colors). 
+* Difference to Sanger sequence: the ddNTPs have *reversible* terminators (reversible block of the 3′ OH group). 
+* Identify which base was incorporated in each DNA fragment cluster by measuring the wavelength of the incorporated ddNTP. 
+* Unblock the ddNTP (remove the terminator such that the sequence can be extended in the next cycle) and repeat!  
+
+![SequencingBySynthesis](BioImages/SequencingBySynthesis.png "Sequencing by synthesis")  
+
+* An imaging step follows each base incorporation step (we speak of one "cycle").   
+* After each imaging step, the 3' blocking group is chemically removed and the cycle is repeated.  
+* After having completed all cycles: 
+A “base-calling” algorithm assigns sequences and associated quality values to each “read”. 
+Read = the sequence of bases called from the colored images for one specific spot of the flow cell, corresponding to one specific DNA fragment!  
+A quality checking pipeline removes poor-quality sequences. 
+
+![ImagingStep](BioImages/ImagingStep.png "Imaging Step")  
+
+
+
 
 
 
