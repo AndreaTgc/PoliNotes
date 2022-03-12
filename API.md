@@ -569,6 +569,26 @@ I modelli di calcolo visti fino ad ora sono in grado di riconoscere se una strin
 Vediamo ora però un modello *generativo* del linguaggio &rarr; la grammatica. 
 In generale, una grammatica (sintassi) è un insieme finito di regole che definiscono le frasi di un linguaggio. 
 
+## Riscritture per raffinamenti successivi  
+
+* Le regole di una grammatica descrivono un “oggetto principale” (libro, protocollo, messaggio grafico) come un insieme ordinato di “componenti”. 
+* La descrizione è fornita fino ad arrivare al livello di dettaglio desiderato (carattere, bit, forma geometrica elementare). 
+* Ogni passo di riscrittura può offrire una o più alternative.  
+* Spesso si tende a chiamare lessico la descrizione grammaticale delle singole “parole”, sintassi quella della loro composizione. 
+
+### Definizione formale 
+
+Una grammatica è una quadrupla G = ⟨V<sub>t</sub>, V<sub>n</sub>, P, S⟩  
+* V<sub>t</sub> &rarr; Alfabeto o Vocabolario *terminale*. 
+* V<sub>n</sub> &rarr; Alfabeto o Vocabolario *nonterminale*.  
+* v<sub>t</sub> ∪ v<sub>n</sub> = V &rarr; Vocabolario o Alfabeto.  
+* S ∈ V<sub>n</sub> &rarr; Elemento di V<sub>n</sub> detto *assioma* o *simbolo iniziale*.  
+* P ⊆ V<sub>n</sub><sup>+</sup> × V<sup>∗</sup> &rarr; Insieme delle produzioni sintattiche o regole di scrittura.  
+
+### La relazione di derivazione 
+
+Definiamo la relazione di derivazione immediata ⇒<sub>G</sub> per una grammatica G = ⟨V<sub>t</sub>, V<sub>n</sub>, P, S⟩ come α ⇒<sub>G</sub> β se e solo se G
+α ∈ V<sup>+</sup>, β ∈ V<sup>∗</sup>, α = α<sub>1</sub>α<sub>2</sub>α<sub>3</sub>, β = α<sub>1</sub>β<sub>2</sub>α<sub>3</sub>, α<sub>2</sub> → β<sub>2</sub> ∈ P
 
 
 
