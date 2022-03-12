@@ -309,8 +309,17 @@ A quality checking pipeline removes poor-quality sequences.
 
 ![ImagingStep](BioImages/ImagingStep.png "Imaging Step")  
 
+### Nanopore sequencing  
 
+A nanopore is a hole of around 1mm in diameter, then we apply voltage across pore and observe current due to conduction of ions through the nanopore. 
+The different bases of DNA block the hole to different extents and change the current in a characteristic way.  
 
+![NanoporeSequencing](BioImages/NanoporeSequencing.png "Nanopore Sequencing")  
+
+* By following changes of current over time, we can determinate the sequence.  
+* True single-molecule sequencing.  
+* The advantages brought by this technique is that we can do really long reads and that it is really cheap. 
+* Major disadvantage: higher error rates due to signal-to-noise issues inherent in the technology. 
 
 
 
