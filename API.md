@@ -588,7 +588,10 @@ Una grammatica è una quadrupla G = ⟨V<sub>t</sub>, V<sub>n</sub>, P, S⟩
 ### La relazione di derivazione 
 
 Definiamo la relazione di derivazione immediata ⇒<sub>G</sub> per una grammatica G = ⟨V<sub>t</sub>, V<sub>n</sub>, P, S⟩ come α ⇒<sub>G</sub> β se e solo se G
-α ∈ V<sup>+</sup>, β ∈ V<sup>∗</sup>, α = α<sub>1</sub>α<sub>2</sub>α<sub>3</sub>, β = α<sub>1</sub>β<sub>2</sub>α<sub>3</sub>, α<sub>2</sub> → β<sub>2</sub> ∈ P
+α ∈ V<sup>+</sup>, β ∈ V<sup>∗</sup>, α = α<sub>1</sub>α<sub>2</sub>α<sub>3</sub>, β = α<sub>1</sub>β<sub>2</sub>α<sub>3</sub>, α<sub>2</sub> → β<sub>2</sub> ∈ P    
+Dove non ambiguo, ometteremo il pedice G dove esso indica la grammatica usata.  
+Definiamo ⇒<sup>∗</sup> come la chiusura riflessiva e transitiva di ⇒  
+
 
 
 
