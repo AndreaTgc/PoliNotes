@@ -254,10 +254,33 @@ Moreover: A-tails (single adenine) are added for downstream steps:
 
 Library prep (3): Adapter ligation
 
+Purpose of adapter ligation &rarr; adaptors get attached (ligated) to the end-repaired DNA fragments. this enables three things: 
+* The adators will later bind to complementary oligonucleotides on the flowcell.  
+* Allow PCR enrichment (amplification) of adapter-ligated DNA fragments only; not shown here... (PCR stands for polymerase chain reaction). 
+* Allow for indexing or “barcoding” of samples (barcode shown as NNNNNN below).  
 
+![AdapterLigation](BioImages/AdapterLigation.png "Adapter Ligation")
 
+**Flow-cell prep**  
 
+Purpose of Flowcell prep &rarr; Bind ligated DNA fragments to flow cell and perform in site amplification of individual molecules (creating clusters or “colonies”) to boost signal strength later during sequencing. 
 
+Flow-cell prep (1): Library deposition  
+
+* The double-stranded adapter-ligated DNA fragments are denatured with *NaOH*.  
+* The single stranded DNA molecules are then transferred to the flowcell.  
+* Here, they bind to oligonucleotides (“oligos”) attached to the flow cell surface; these oligos are designed to be reverse complementary to sequences in the adapters. 
+* Extension mix (buffer, dNTP’s, Taq polymerase) is pumped into a channel. 
+* The oligos on the flowcell are elongated using the ligated DNA fragments as a templates (reconstruction of the reverse strand of the DNA fragments to be sequenced) 
+* We now get a double-stranded molecule.  
+* Formamide is added to denature these products, and the original fragment (which is not covalently attached to the flowcell) is washed away. 
+* The reconstructed reverse complement remains covalently fixed to the flowcell!  
+
+Flow-cell prep (2): bridge amplification  
+
+Purpose &rarr; Amplify single molecules attached to flowcell as described above by factors of ∼ 1000 to generate more signal in the following sequencing steps. 
+
+![BridgeAmplification](BioImages/BridgeAmplification.png "Bridge Amplification")  
 
 
 
