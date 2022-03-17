@@ -632,6 +632,17 @@ Data ⟨{S},{a,b}, {S → aSb,S → ab},S⟩...
 
 ![Da grammatica ad APND](ApiImages/DaGrammaticaAdAP.png)  
 
+**Grammatiche non limitate e Macchine di Turing**  
+
+Le grammatiche di tipo 0 (non limitate) corrispondono alle MT.  
+Costruiamo, senza pretesa di formalizzazione qui, una MT non deterministica che accetti L(G):  
+* *M* ha un nastro di memoria inizializzato con Z<sub>0</sub>S  
+* La stringa da riconoscere è sul nastro in ingresso  
+* Il nastro di memoria viene scandito alla ricerca di una parte sinistra di una qualche produzione p ∈ P  
+* Quando una viene trovata (scelta nondeterministicamente), viene sostituita con la sua parte destra  
+* Se ve n'è più di una, si opera ancora nondeterministicamente  
+
+
 
 
 
