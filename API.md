@@ -663,6 +663,34 @@ Le grammatiche di tipo 1 corrispondono ad un sottoinsieme delle Macchine di Turi
 **NOTA BENE** &rarr; non sono le uniche macchine di Turing che terminano sempre!  
 Consentono sempre di sapere se una stringa x è generata da G (si può costruire l’insieme delle stringhe generate da G lunghe quanto x e vedere se essa appare). 
 
+# La teoria della computazione  
+
+Una delle domande più importanti che si potremo porre in questo corso è *Siamo in grado di risolvere questo problema?* 
+Ma prima di ciò, quali problemi siamo in grado di risolvere? (con un certo formalismo e in assoluto)  
+Bhe...chiederlo in termini assoluti appare molto generale  
+* Cosa intendiamo per problema?  
+* Quante e quali macchine dobbiamo considerare per rispondere "in assoluto"?  
+* Come astraiamo dalla specifica abilità del solutore?  
+* E dai mezzi impiegati per risolvere il problema?  
+
+## Una prima inquadratura  
+
+**Come formalizzare un "problema informatico"?**  
+
+Abbiamo formalizzato un *problema informatico* usando il concetto di **linguaggio**.  
+* Formuliamo un calcolo come il problema di capire se x ∈ L o di calcolare y = τ(x)  
+* Queste due formulazioni possono essere unificate riconducendo una all’altra  
+So calcolare y = τ(x), voglio risolvere x ∈ L: definisco τ(x) = 1 ⇔ x ∈ L e τ(x) = 0 ⇔ x &notin; L  
+M risolve x ∈ L: definisco Lτ = {x‡y|y = τ(x)}, poi per tutte le possibili stringhe y chiedo a M se x‡y ∈ Lτ . Se τ (x) è definita, prima o poi la macchina risponderà positivamente (probabilmente più poi che prima, ma per ora non ci interessa l’efficienza).  
+
+* Esistono moltissimi formalismi di calcolo, moltissimi altri possono essere inventati: quale scegliere?  
+A seconda della scelta, ottengo risultati come: “a<sup>n</sup>b<sup>n</sup>|n > 0 è riconosciuto da un AP e una MT ma non da un FSA”. 
+* Riflettendo sulla MT si nota come non sia facile costruire un meccanismo con capacità di calcolo maggiori (=che risolva più problemi)  
+
+## La Macchina di Turing è tutto ciò che ci serve  
+
+
+
 
 
 
