@@ -640,7 +640,9 @@ Costruiamo, senza pretesa di formalizzazione qui, una MT non deterministica che 
 * La stringa da riconoscere è sul nastro in ingresso  
 * Il nastro di memoria viene scandito alla ricerca di una parte sinistra di una qualche produzione p ∈ P  
 * Quando una viene trovata (scelta nondeterministicamente), viene sostituita con la sua parte destra  
-* Se ve n'è più di una, si opera ancora nondeterministicamente. 
+* Se ve n'è più di una, si opera ancora nondeterministicamente  
+
+
 
 
 
