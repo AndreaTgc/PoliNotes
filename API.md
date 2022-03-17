@@ -618,6 +618,20 @@ Dall’FSA *A* alla grammatica:
 * Se q′ ∈ F per una data δ(q, i) = q′, aggiungiamo anche ⟨q⟩ → i all’insieme P  
 * Facile mostrare per induzione che δ<sup>∗</sup>(q0, x) = q′ sse ⟨q0⟩ ⇒<sup>∗</sup> x⟨q′⟩  
 
+Dalla grammatica all'FSA (non deterministico):  
+
+* Q = V<sub>n</sub> ∪{q<sub>f</sub>}, I = V<sub>t</sub>, q<sub>0</sub> = S, F = {q<sub>f</sub>}  
+* Se A → bC ∈ P, δ(A,b) = C; Se A → b ∈ P, δ(A,b) = q<sub>f</sub>  
+
+**Grammatiche libere dal contesto e AP non deterministici**  
+
+I linguaggi generati da grammatiche libere dal contesto vengono riconosciuti da automi a pila non deterministici.  
+*Di seguito è presente un esempio illustrativo* 
+
+Data ⟨{S},{a,b}, {S → aSb,S → ab},S⟩...  
+
+![Da grammatica ad APND](ApiImages/DaGrammaticaAdAP.png)  
+
 
 
 
