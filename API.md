@@ -689,6 +689,14 @@ A seconda della scelta, ottengo risultati come: “a<sup>n</sup>b<sup>n</sup>|n 
 
 ## La Macchina di Turing è tutto ciò che ci serve  
 
+* Nel 1933 G ̈odel e Herbrandt individuano un insieme di funzioni sugli interi che appaiono definire ci`o che pu`o essere calcolato “a mano, con carta e penna”. 
+* Nel 1936, Alonso Church definisce un altro sistema basato su funzioni ricorsive, il λ-calcolo, anch’esso in grado di descrivere tutte le funzioni “calcolabili operativamente”. 
+* Nel 1936 Turing definisce quella che è la MT a nastro singolo sempre nell’intento di fornire un formalismo per rappresentare tutto ciò che è “effettivamente calcolabile”.  
+* Turing e Church dimostrano che i tre formalismi citati sono equivalenti: definiscono lo stesso insieme di problemi. 
+* **Tesi di Church-Turing** &rarr; Tutti i problemi calcolabili operativamente sono descritti da una MT!  
+
+
+
 
 
 
