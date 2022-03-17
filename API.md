@@ -642,6 +642,28 @@ Costruiamo, senza pretesa di formalizzazione qui, una MT non deterministica che 
 * Quando una viene trovata (scelta nondeterministicamente), viene sostituita con la sua parte destra  
 * Se ve n'è più di una, si opera ancora nondeterministicamente  
 
+**Emulare una macchina di Turing con una grammatica non ristretta**  
+
+Senza perdere di generalità emuliamo una MT *M* a nastro singolo con una grammatica G non ristretta.  
+
+Considerato che G può “manipolare” solo elementi di V<sub>n</sub>, faccio in modo che generi stringhe della forma x&X con & ∈ Vn, x ∈ V<sub>t</sub><sup>∗</sup> e X che è costituita da “copie nonterminali” degli elementi di X.  
+*Ad esempio, se x = abac, genero la stringa abac&ABAC*.   
+**Obiettivo:** avere una derivazione x&X &rarr;<sup>*</sup> x se e solo se x è accettata da *M*  
+Simuleremo ogni mossa di *M* con una derivazione diretta di G 
+
+### Corrispondenze mancanti  
+
+**Automi a pila deterministici**  
+
+Esiste un sottoinsieme (proprio) delle grammatiche libere dal contesto che genera i linguaggi riconosciuti dagli automi a pila deterministici.  
+
+**Grammatiche dipendenti dal contesto**  
+
+Le grammatiche di tipo 1 corrispondono ad un sottoinsieme delle Macchine di Turing di cui si è certi sempre della loro terminazione.  
+**NOTA BENE** &rarr; non sono le uniche macchine di Turing che terminano sempre!  
+Consentono sempre di sapere se una stringa x è generata da G (si può costruire l’insieme delle stringhe generate da G lunghe quanto x e vedere se essa appare). 
+
+
 
 
 
