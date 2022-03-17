@@ -591,7 +591,32 @@ Definiamo la relazione di derivazione immediata ⇒<sub>G</sub> per una grammati
 α ∈ V<sup>+</sup>, β ∈ V<sup>∗</sup>, α = α<sub>1</sub>α<sub>2</sub>α<sub>3</sub>, β = α<sub>1</sub>β<sub>2</sub>α<sub>3</sub>, α<sub>2</sub> → β<sub>2</sub> ∈ P    
 Dove non ambiguo, ometteremo il pedice G dove esso indica la grammatica usata.  
 Definiamo ⇒<sup>∗</sup> come la chiusura riflessiva e transitiva di ⇒  
+Il linguaggio L(G) generato dalla grammatica G è l’ insieme di tutte e sole le stringhe x di soli caratteri di V<sub>t</sub> tali che S ⇒<sup>∗</sup> x.  
 
+### Usi pratici delle grammatiche  
+
+Le grammatiche sono ampiamente usate come modello descrittivo dei linguaggi di programmazione e di descrizione dati; possono anche essere usate come generatrici di input di test per dei programmi.  
+
+## Espressività delle grammatiche  
+
+### Quali linguaggi è possibile esprimere?  
+
+Come abbiamo visto è possibilie utilizzare delle grammatiche per generare dei linguaggi riconosciuti da un automa a potenza minima.  
+Possiamo ora vedere come è possibile classificare le grammatiche in base al loro potere generativo, ovvero in base alla famiglia di appartenenza del linguaggio generato.  
+La gerarchia classica proposta da Chomsky prevede 4 classi, a seconda delle limitazioni (crescenti) imposte sulla forma delle produzioni α → β  
+
+![Gerarchia delle grammatiche di Chomsky](ApiImages/GerarchiaGrammatiche.png)  
+
+### A quali automi corrispondono?  
+
+**Linguaggi generati da grammatiche regolari ≡ riconosciuti da FSA**  
+
+Dall’FSA *A* alla grammatica:  
+
+* Poniamo V<sub>n</sub> = Q, V<sub>t</sub> = I, S = ⟨q0⟩  
+* Per ogni δ(q, i) = q′ aggiungiamo ⟨q⟩ → i⟨q′⟩ all’insieme P  
+* Se q′ ∈ F per una data δ(q, i) = q′, aggiungiamo anche ⟨q⟩ → i all’insieme P  
+* Facile mostrare per induzione che δ<sup>∗</sup>(q0, x) = q′ sse ⟨q0⟩ ⇒<sup>∗</sup> x⟨q′⟩  
 
 
 
