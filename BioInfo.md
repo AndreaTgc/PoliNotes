@@ -381,6 +381,13 @@ Similarly, the average coverage depth per base is λ = n<sub>b</sub>/G
 
 K-mers are subsequences with K nucleotides, consider the following k-mers in a short read of 17 nucleotides...  
 
-![K-mers example](BioImages/KmersExample.png "3-mers in a sequence") 
+![K-mers example](BioImages/KmersExample.png "3-mers in a sequence")  
+
+Usually the number of K-mers in a sequence can be calculated this way &rarr; NumberOfKmers = L - k + 1  
+Let’s say we want to know the total number of k-mers in our WGS data. Since we have N reads, each of which has L − k + 1 k-mer subsequences, the total number of k-mers (n<sub>k</sub>) is:  
+
+n<sub>k</sub> = N × (L − k + 1)  
+
+The coverage depth for k-mers is then d<sub>k</sub> = n<sub>k</sub> / G
 
 
