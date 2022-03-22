@@ -365,8 +365,22 @@ However, we perform the sampling process a very large number of times (millions 
  
 ![Poisson distribution](BioImages/PoissonDistribution.png "Poisson Distribution") 
 
+* k refers to number of reads that overlap a certain genomic position (“coverage”). 
+* λ = mean sequencing depth (average number of reads covering each base in the genome). 
 
+*Let's look at this model a bit more closely...*  
+* G: genome size (e.g., 3.2 × 109 bases for humans)
+* L: read length (e.g., 100 bases for an older Illumina “run”) 
+* N: number of reads
+* n<sub>b</sub>: total number of sequenced bases
 
+It is now easy to calculate that n<sub>b</sub> = N * L  
+Similarly, the average coverage depth per base is λ = n<sub>b</sub>/G  
 
+### K-mers  
+
+K-mers are subsequences with K nucleotides, consider the following k-mers in a short read of 17 nucleotides...  
+
+![K-mers example](BioImages/KmersExample.png "3-mers in a sequence") 
 
 
