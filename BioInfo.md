@@ -347,8 +347,23 @@ The process of puzzling together a complete genome sequence of an organism for w
 As the cost of sequencing has declined, the major challenge is strictly computational.  
 There are two major classes of assembly algorithms: 
 * Overlap-layout consensous (OLC). 
-* De Bruijn graphs (DBG). 
+* De Bruijn graphs (DBG).  
+OLC was widely used back in the day when sequencing was performed by the low-throughput, longer-read Sanger method. 
+DBG-based methods have dominated the scene since the introduction of NGS. 
 
+## Sequencing data: models and intuitions  
+
+To get intuition about genome assembly, let us consider an **idealized genome** that represents a long random sequence of four bases and that does not contain repeats or other complex structures. 
+* Consider a simple and error-free sequencing strategy:  
+single-end, whole-genome sequencing (WGS); no sequencing errors. 
+* That is, we sample equal-length fragments (the reads) with starting points randomly distributed across the genome. 
+* Thus, our “shotgun” sequencing can be compared to a process that samples bases from all genome positions at random. 
+* The chance that any particular base is sampled is very low in a single sampling process (a single read). 
+However, we perform the sampling process a very large number of times (millions of reads!). 
+
+ The Poisson distribution expresses the probability of a given number of events occurring in a fixed interval of time and/or space if these events are *iid* &rarr; (independent and identically distributed). 
+ 
+![Poisson distribution](BioImages/PoissonDistribution.png "Poisson Distribution") 
 
 
 
