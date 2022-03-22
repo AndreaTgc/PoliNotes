@@ -321,6 +321,34 @@ The different bases of DNA block the hole to different extents and change the cu
 * The advantages brought by this technique is that we can do really long reads and that it is really cheap. 
 * Major disadvantage: higher error rates due to signal-to-noise issues inherent in the technology. 
 
+# Genome assembly  
+
+## Paired-end or single-end?  
+
+The DNA fragments inserted between the adapters are usually longer than the maximum read (sequence) length. We can either sequence only one end of the fragment (“single-end sequencing”) or both ends (“paired-end sequencing”)!  
+
+![PairVsSignle](BioImages/PairVsSingle.png "Paired-end vs Single-end")  
+
+### Paired-end sequencing  
+
+What are the advantages of the Paired-end sequencing?  
+* We know an approximate distance between the two reads (from the average fragment length)  
+* Can help to identify structural variants  
+In some cases, even if the Paired-end might be more precise, the Single-end sequencing will be enough to get the job done.  
+
+## Genome assembly vs Read mapping  
+
+**Genome assembly** &rarr; reconstruct the genome from (short) sequencing reads.  
+**Read mapping** &rarr; Map (align) the reads to a known reference genome.  
+
+### Genome assembly: the basics  
+
+The process of puzzling together a complete genome sequence of an organism for which "shotgun sequencing" has been performed is referred to as *genome assembly*   
+As the cost of sequencing has declined, the major challenge is strictly computational.  
+There are two major classes of assembly algorithms: 
+* Overlap-layout consensous (OLC). 
+* De Bruijn graphs (DBG). 
+
 
 
 
