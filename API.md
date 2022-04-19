@@ -695,6 +695,8 @@ A seconda della scelta, ottengo risultati come: “a<sup>n</sup>b<sup>n</sup>|n 
 * Turing e Church dimostrano che i tre formalismi citati sono equivalenti: definiscono lo stesso insieme di problemi. 
 * **Tesi di Church-Turing** &rarr; Tutti i problemi calcolabili operativamente sono descritti da una MT!  
 
+**NOTA BENE** &rarr; Per il resto delle slide su computabilità e decidibilità guardare sito del prof Barenghi.  
+
 
 
 
