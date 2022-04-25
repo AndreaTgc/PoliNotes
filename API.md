@@ -697,6 +697,45 @@ A seconda della scelta, ottengo risultati come: “a<sup>n</sup>b<sup>n</sup>|n 
 
 **NOTA BENE** &rarr; Per il resto delle slide su computabilità e decidibilità guardare sito del prof Barenghi.  
 
+# La complessità del calcolo
+
+## Quanto efficientemente risolviamo un problema?
+
+Posto che un problema sia calcolabile ci possiamo domandare "*a che costo?*"  
+
+Effettueremo analisi **quantitative** di:  
+* Tempo impegato. 
+* Spazio occupato. 
+
+## Dipendenza dal formalismo di calcolo  
+
+Per la tesi di Church-Turing, un problema è calcolabile o meno indipendentemente dallo strumento usato.  
+Possiamo dire lo stesso della complessità di calcolo?  
+
+* Una somma in unario ha efficienza diversa da una base B > 1  
+* Calcolare una traduzione y = τ(x) decidendo se ∃z ∈ Lτ = {x†y|y = τ(x)} può essere molto meno efficiente del calcolare la traduzione.  
+
+### Costo di calcolo "indipendente" dal formalismo  
+
+Non disponiamo di una tesi di Church-Turing della complessità. 
+Ci serve uno strumento per calcolare la complessità spaziale e temporale:  
+* Che tralasci "considerazioni superflue"  
+* Utilizzabile per la maggioranza dei modelli di calcolo  
+
+Non avendo un formalismo di calcolo “preferito” per costruire il modello, partiamo dalle MT deterministiche. 
+* Almeno una MT per conservare le capacità espressive. 
+* Una MT deterministica perchè non possiamo costruire fisicamente una non deterministica  
+
+## Complessità temporale  
+
+Data la computazione c<sub>0</sub>⊢<sup>*</sup>c<sub>r</sub> di M la complessità temporale è TM(x) = r se M si ferma in un dato c<sub>r</sub>, ∞ altrimenti. 
+M è deterministica ⇒ computazione unica sull’ingresso x. 
+
+## Complessità spaziale  
+
+
+
+
 
 
 
